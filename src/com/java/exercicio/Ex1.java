@@ -4,7 +4,7 @@ import java.util.Locale;
 
 public class Ex1 {
     public static void main(String[] args) {
-
+        Locale.setDefault(Locale.US);
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite seu nome: ");
         String nome = scan.next();
@@ -18,3 +18,4 @@ public class Ex1 {
         scan.close();
     }
 }
+
